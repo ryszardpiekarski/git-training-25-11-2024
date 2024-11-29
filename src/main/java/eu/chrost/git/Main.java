@@ -10,9 +10,12 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         String line = scanner.nextLine();
+        scanner.close();
 
         Random rand = new Random();
         int value = rand.nextInt(100);
         System.out.println(value);
+
+        System.out.println("New feature on master branch");
     }
 }
